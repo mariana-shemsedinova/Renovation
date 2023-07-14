@@ -6,6 +6,6 @@ function changeLanguage(language) {
 document.addEventListener('DOMContentLoaded', (event) => {
   const language = localStorage.getItem('language');
   if (language) {
-    window.location.href = `index_${language}.html`;
+    window.location.href = `${language}.html`;
   }
 });
